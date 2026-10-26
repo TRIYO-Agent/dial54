@@ -1,0 +1,54 @@
+:root{--bg:#fbf8f4;--ink:#231a14;--muted:#6b5d52;--accent:#8a4b2a;--accent2:#c98a4b;--card:#fff;--line:#e8dfd5;--ok:#1f7a4a;--warn:#a26200;--no:#a12a2a}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65;font-size:17px}
+a{color:var(--accent)}a:hover{color:#5e3019}
+.wrap{max-width:860px;margin:0 auto;padding:0 18px}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:6px 10px;z-index:9}
+.site-header{background:#2a1d15;color:#fff}
+.header-inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;padding:12px 18px}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-weight:800;font-size:1.25rem;letter-spacing:.3px}
+.logo{display:inline-grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--accent2);color:#2a1d15;font-size:.95rem;font-weight:900}
+.site-header ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:4px 16px}
+.site-header nav a{color:#f3e6d8;text-decoration:none;font-size:.95rem}
+.site-header nav a[aria-current=page],.site-header nav a:hover{color:#fff;text-decoration:underline}
+.disclosure-bar{background:#f1e6d9;border-bottom:1px solid var(--line);font-size:.85rem;color:var(--muted);padding:6px 0}
+main{padding:26px 18px 40px}
+h1{font-size:2rem;line-height:1.2;margin:.3em 0 .4em}
+h2{font-size:1.4rem;margin-top:1.8em;line-height:1.3}
+h3{font-size:1.12rem;margin-top:1.4em}
+.lede{font-size:1.12rem;color:#3d2f25}
+.meta,.crumbs,.muted{color:var(--muted);font-size:.9rem}
+.crumbs a{color:var(--muted)}
+.disclosure.inline{font-size:.88rem;background:#fff7ec;border-left:4px solid var(--accent2);padding:6px 10px;color:#5a4636}
+.note{font-size:.9rem;background:#f4efe9;border-radius:8px;padding:10px 14px;color:var(--muted);margin-top:2em}
+.callout{background:#fff;border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:8px;padding:12px 16px;margin:1.2em 0}
+.product{font-weight:600}
+table{width:100%;border-collapse:collapse;margin:1em 0;font-size:.95rem;background:#fff}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:#f4ece3}
+.table-scroll{overflow-x:auto}
+.cards{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
+.card a{display:block;height:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-decoration:none;color:var(--ink);transition:box-shadow .15s}
+.card a:hover{box-shadow:0 4px 16px rgba(60,30,10,.12)}
+.card h3{margin:.3em 0;font-size:1.05rem;color:var(--accent)}
+.card p{margin:0;font-size:.92rem;color:var(--muted)}
+.tag{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--accent2);font-weight:700}
+.hero{background:linear-gradient(135deg,#3a271b,#7a4426);color:#fff;border-radius:16px;padding:28px 24px;margin-bottom:24px}
+.hero h1{color:#fff;margin-top:0}.hero p{color:#f3e6d8;font-size:1.08rem}
+.btn{display:inline-block;background:var(--accent2);color:#2a1d15;font-weight:700;padding:10px 16px;border-radius:8px;text-decoration:none;margin:4px 8px 4px 0}
+.btn.alt{background:transparent;color:#fff;border:1px solid #f3e6d8}
+.sources{font-size:.92rem}
+.site-footer{background:#2a1d15;color:#d9c8b7;padding:24px 0;font-size:.9rem}
+.site-footer a{color:#f1d9bf}
+.site-footer .muted{color:#b9a592}
+.footer-links{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:6px 16px}
+form.checker,form.contact{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:12px}
+label{font-weight:600;display:block;margin-bottom:4px}
+select,input,textarea{width:100%;font:inherit;padding:9px;border:1px solid #cdbfb1;border-radius:8px;background:#fff}
+button{font:inherit;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:10px 16px;cursor:pointer}
+button[disabled]{background:#b9a99b;cursor:not-allowed}
+.result{border-radius:10px;padding:12px 14px;margin-top:14px;background:#fff;border:1px solid var(--line)}
+.result.ok{border-left:6px solid var(--ok)}.result.warn{border-left:6px solid var(--warn)}.result.no{border-left:6px solid var(--no)}
+.result strong.ok{color:var(--ok)}.result strong.warn{color:var(--warn)}.result strong.no{color:var(--no)}
+@media (max-width:600px){body{font-size:16px}h1{font-size:1.6rem}.hero{padding:20px 16px}}

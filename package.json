@@ -1,0 +1,8 @@
+{
+  "name": "dial54",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dial54 — static affiliate content site for Breville 54mm espresso machine owners",
+  "scripts": { "build": "node build.js" },
+  "engines": { "node": ">=18" }
+}
