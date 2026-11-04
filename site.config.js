@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: process.env.SITE_URL || "https://dial54.onrender.com",
   // Amazon Associates tracking ID, e.g. "dial54-20". Leave empty until the
   // Associates account is approved. While empty, NO Amazon links are generated.
-  amazonTag: "",
+  amazonTag: "dial54-20",
   amazonDomain: "https://www.amazon.com",
   disclosure: "As an Amazon Associate I earn from qualifying purchases.",
   contactEmail: "", // leave empty to show "email coming soon"
