@@ -3,16 +3,19 @@ module.exports = {
   slug: "water-for-espresso",
   title: "Water for Espresso: What to Use in a Bambino or Barista Express",
   category: "Maintenance",
+  hero: "water",
+  inline: "maintenance",
+  picks: ["waterTestStrips", "waterPitcherFilter", "mineralPacks"],
   description: "How water hardness and alkalinity affect both taste and scale, what the SCA recommends, and practical options from filtered tap to remineralized distilled water.",
   related: ["breville-descaling-and-maintenance-schedule", "dialing-in-espresso-on-a-bambino", "home-espresso-setups-500-1000-2000"],
   sources: [
-    { label: "SCA 25 Magazine — Water and Coffee Acidity: How to Adapt Your Water", url: "https://sca.coffee/sca-news/25/issue-9/english/water-and-coffee-acidity-how-to-adapt-your-water-for-different-extraction-methods-25-magazine-issue-9-pxjby" },
-    { label: "Coffearium — Water for coffee (summary of SCAA 2009 standard and SCA 2018 handbook)", url: "https://coffearium.org/entries/water-for-coffee/" },
-    { label: "Clive Coffee — Water composition and espresso flavor", url: "https://clivecoffee.com/blogs/learn/the-science-of-water-composition-in-espresso" },
-    { label: "Breville — Barista Express instruction book: water filter guidance (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES870-instruction-manual.pdf" },
+    { label: "SCA 25 Magazine: Water and Coffee Acidity: How to Adapt Your Water", url: "https://sca.coffee/sca-news/25/issue-9/english/water-and-coffee-acidity-how-to-adapt-your-water-for-different-extraction-methods-25-magazine-issue-9-pxjby" },
+    { label: "Coffearium: Water for coffee (summary of SCAA 2009 standard and SCA 2018 handbook)", url: "https://coffearium.org/entries/water-for-coffee/" },
+    { label: "Clive Coffee: Water composition and espresso flavor", url: "https://clivecoffee.com/blogs/learn/the-science-of-water-composition-in-espresso" },
+    { label: "Breville: Barista Express instruction book: water filter guidance (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES870-instruction-manual.pdf" },
   ],
   body: `
-<p>Espresso is mostly water, and the minerals in that water affect two things: <strong>how your coffee tastes</strong> and <strong>how fast scale builds up</strong> inside the machine. You don't need a chemistry lab — just a basic idea of where your water stands and a simple fix if it's far off.</p>
+<p>Espresso is mostly water, and the minerals in that water affect two things: <strong>how your coffee tastes</strong> and <strong>how fast scale builds up</strong> inside the machine. You don't need a chemistry lab, just a basic idea of where your water stands and a simple fix if it's far off.</p>
 
 <h2>The two numbers that matter</h2>
 <ul>
@@ -20,7 +23,7 @@ module.exports = {
   <li><strong>Alkalinity</strong> (mainly bicarbonate): buffers acidity. Too much makes coffee taste flat and chalky; too little can make water corrosive to metal parts.</li>
 </ul>
 <p>The SCA's 2018 Water Quality Handbook, as summarized by Coffearium, recommends total hardness of <strong>50–175 ppm</strong> and alkalinity of <strong>40–75 ppm</strong> (as CaCO₃), with pH 6–8, and warns that alkalinity below 40 ppm increases corrosion risk. The older 2009 SCAA standard targeted about 150 mg/L total dissolved solids, 68 mg/L calcium hardness and 40 mg/L alkalinity. Both point the same way: moderate minerals, modest alkalinity, no chlorine.</p>
-<p>For context, an SCA 25 Magazine article estimates that average US tap water has around 150 ppm alkalinity and around 170 ppm total hardness — "medium hard." The same article explains espresso tolerates more alkalinity than filter coffee because so little water is used per gram of coffee.</p>
+<p>For context, an SCA 25 Magazine article estimates that average US tap water has around 150 ppm alkalinity and around 170 ppm total hardness, "medium hard." The same article explains espresso tolerates more alkalinity than filter coffee because so little water is used per gram of coffee.</p>
 
 <h2>Step 1: Find out what you have</h2>
 <ul>
@@ -46,7 +49,7 @@ module.exports = {
 </ul>
 
 <h2>How water affects your descaling schedule</h2>
-<p>Harder water means more frequent descale prompts. Better water means fewer — but don't skip the machine's prompts either way. See the <a href="/articles/breville-descaling-and-maintenance-schedule/">maintenance schedule</a>.</p>
+<p>Harder water means more frequent descale prompts. Better water means fewer, but don't skip the machine's prompts either way. See the <a href="/articles/breville-descaling-and-maintenance-schedule/">maintenance schedule</a>.</p>
 
 <div class="callout"><strong>Quick start:</strong> if you do nothing else, use filtered water for taste, follow your machine's descale prompts, and avoid softened water. If you're chasing the last bit of flavor, try remineralized distilled water for a week and compare.</div>
 `,

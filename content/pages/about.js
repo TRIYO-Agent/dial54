@@ -4,7 +4,7 @@ module.exports = {
   description: "About Dial54, an independent guide site for owners of Breville 54mm espresso machines.",
   body: `
 <h1>About Dial54</h1>
-<p>Dial54 is an independent site for people who own — or are about to buy — one of Breville's compact 54mm espresso machines: the Bambino, Bambino Plus, Barista Express, Barista Pro and their siblings. The name comes from the two things this site is about: <strong>dialing in</strong> better espresso, and the <strong>54mm</strong> portafilter those machines share.</p>
+<p>Dial54 is an independent site for people who own, or are about to buy, one of Breville's compact 54mm espresso machines: the Bambino, Bambino Plus, Barista Express, Barista Pro and their siblings. The name comes from the two things this site is about: <strong>dialing in</strong> better espresso, and the <strong>54mm</strong> portafilter those machines share.</p>
 
 <h2>Why this site exists</h2>
 <p>These machines are many people's first "real" espresso setup, and the questions are always the same: Which grinder do I need? Will this accessory fit? Why is my shot sour? What's the whole setup going to cost? Most answers are scattered across manuals, forums and long videos. Dial54 collects them into short, practical guides.</p>
@@ -20,6 +20,12 @@ module.exports = {
 
 <h2>Who runs it</h2>
 <p>Dial54 is run by Brett, a home-espresso enthusiast who started the site to make buying and using these machines less confusing.</p>
+
+<h2>Follow along</h2>
+<p>For daily coffee chat, quick tips and shot photos, follow CoffeeTalk on Instagram: <a href="https://www.instagram.com/coffeetalk_daily/" rel="noopener me" target="_blank">@coffeetalk_daily</a>.</p>
+
+<h2>Image credits</h2>
+<p>Photos on Dial54 are AI-generated illustrations of generic, unbranded espresso gear and home coffee scenes, created for this site. Product card images are illustrative only and do not show the exact model or brand named on the card. No images are copied from Amazon or from manufacturers.</p>
 
 <h2>Independence and affiliate links</h2>
 <p>Dial54 is not affiliated with Breville, Sage, Ninja or any manufacturer. As an Amazon Associate I earn from qualifying purchases. Some product mentions may become affiliate links, which means the site may earn a small commission at no extra cost to you. That never decides what we recommend. Details are on the <a href="/affiliate-disclosure/">affiliate disclosure</a> page.</p>

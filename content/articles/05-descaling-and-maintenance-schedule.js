@@ -3,16 +3,19 @@ module.exports = {
   slug: "breville-descaling-and-maintenance-schedule",
   title: "Breville Bambino & Barista Descaling and Maintenance Schedule (Daily, Weekly, Monthly)",
   category: "Maintenance",
-  description: "A simple, printable care routine for Breville 54mm machines: what to do after every drink, weekly, and when the machine asks for a cleaning or descale cycle — based on Breville's own manuals.",
+  hero: "maintenance",
+  inline: "water",
+  picks: ["descaler", "cleaningTablets"],
+  description: "A simple, printable care routine for Breville 54mm machines: what to do after every drink, weekly, and when the machine asks for a cleaning or descale cycle, based on Breville's own manuals.",
   related: ["water-for-espresso", "milk-steaming-tips-bambino-plus", "dialing-in-espresso-on-a-bambino"],
   sources: [
-    { label: "Breville — Bambino (BES450) instruction book: Clean & Descale cycle (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES450-instruction-manual.pdf" },
-    { label: "Breville — Bambino Plus (BES500) instruction book: cleaning cycle and descaling (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES500-instruction-manual.pdf" },
-    { label: "Breville — Barista Express (BES870) instruction book: water filter, cleaning cycle, descaling (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES870-instruction-manual.pdf" },
-    { label: "Breville — Barista Pro (BES878) instruction book (PDF)", url: "https://www.breville.com/content/dam/breville/au/en/assets/miscellaneous/instruction-manual/espresso/BES878-instruction-manual.pdf" },
+    { label: "Breville: Bambino (BES450) instruction book: Clean & Descale cycle (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES450-instruction-manual.pdf" },
+    { label: "Breville: Bambino Plus (BES500) instruction book: cleaning cycle and descaling (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES500-instruction-manual.pdf" },
+    { label: "Breville: Barista Express (BES870) instruction book: water filter, cleaning cycle, descaling (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES870-instruction-manual.pdf" },
+    { label: "Breville: Barista Pro (BES878) instruction book (PDF)", url: "https://www.breville.com/content/dam/breville/au/en/assets/miscellaneous/instruction-manual/espresso/BES878-instruction-manual.pdf" },
   ],
   body: `
-<p>Breville machines tell you when they need a cleaning or descaling cycle, but a few small habits between those alerts keep shots tasting right and the machine working longer. Below is a schedule you can follow, with the machine-specific details pulled from Breville's instruction books. <strong>Your manual always wins</strong> — button combinations differ between models and revisions.</p>
+<p>Breville machines tell you when they need a cleaning or descaling cycle, but a few small habits between those alerts keep shots tasting right and the machine working longer. Below is a schedule you can follow, with the machine-specific details pulled from Breville's instruction books. <strong>Your manual always wins</strong>, button combinations differ between models and revisions.</p>
 
 <h2>Two different jobs: cleaning vs descaling</h2>
 <ul>
@@ -46,7 +49,7 @@ module.exports = {
   <li><strong>Bambino Plus:</strong> after 200 extractions since the last cleaning, the 1 CUP and 2 CUP buttons flash alternately. Insert the cleaning disc with a cleaning tablet and run the cycle described in the manual.</li>
   <li><strong>Barista Express:</strong> the CLEAN/DESCALE light <em>flashes</em> when a cleaning cycle is due. Breville says the cycle takes about five minutes; check the tablet dissolved afterwards and repeat if not.</li>
   <li><strong>Barista Pro:</strong> the display prompts for a flush cleaning cycle, which is separate from descaling.</li>
-  <li><strong>Bambino:</strong> the base model combines its alert into a single "clean & descale" prompt — the 2 Cup button flashes continuously.</li>
+  <li><strong>Bambino:</strong> the base model combines its alert into a single "clean & descale" prompt, the 2 Cup button flashes continuously.</li>
 </ul>
 
 <h2>When the machine asks: descaling</h2>

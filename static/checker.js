@@ -37,16 +37,16 @@
     if (!mm || !aa) { out.className = "result"; out.innerHTML = "<p>Select a machine and an accessory.</p>"; return; }
     var cls, verdict, detail;
     if (!aa.sized) {
-      cls = "ok"; verdict = "Fits — size doesn't matter";
+      cls = "ok"; verdict = "Fits: size doesn't matter";
       detail = aa.tip;
       if (aa.id === "pitcher" && mm.autoMilk) { cls = "warn"; verdict = "Fine for manual steaming only"; detail = "The Bambino Plus's automatic milk mode reads temperature through its supplied jug, and Breville's manual says to use only that jug. A separate pitcher is fine for manual steaming and pouring."; }
       if (aa.id === "scale" && mm.autoMilk) { detail += " On the Bambino Plus, move the scale off the drip tray before auto steaming so it doesn't cover the milk temperature sensor."; }
     } else if (mm.sys === "b54") {
-      cls = "ok"; verdict = "Yes — buy accessories made for Breville 54mm";
+      cls = "ok"; verdict = "Yes: buy accessories made for Breville 54mm";
       detail = aa.tip;
       if (aa.id === "funnel" && mm.funnel) detail += " Note: your machine already ships with Breville's own Dosing Funnel.";
     } else {
-      cls = "no"; verdict = "No — your machine uses the " + sysLabel[mm.sys] + " system";
+      cls = "no"; verdict = "No: your machine uses the " + sysLabel[mm.sys] + " system";
       detail = "Breville 54mm " + aa.name.toLowerCase() + "s won't fit. Look for accessories that are specifically listed for " + sysLabel[mm.sys] + (mm.sys === "n53" ? " and name your Ninja model code (Ninja sells its own parts by part number)." : " machines.");
     }
     out.className = "result " + cls;

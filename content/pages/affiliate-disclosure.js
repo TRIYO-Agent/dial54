@@ -10,13 +10,13 @@ module.exports = {
 <h2>What that means for you</h2>
 <ul>
   <li>Some product names on this site may link to Amazon or other retailers. If you buy through one of those links, Dial54 may earn a small commission.</li>
-  <li>It costs you nothing extra — the price you pay is the same.</li>
+  <li>It costs you nothing extra, the price you pay is the same.</li>
   <li>Commissions help cover hosting and the time it takes to research and update guides.</li>
 </ul>
 
 <h2>How we keep recommendations honest</h2>
 <ul>
-  <li>We recommend products based on manufacturer documentation, reputable independent reviews and how well they fit the job — not on commission rates.</li>
+  <li>We recommend products based on manufacturer documentation, reputable independent reviews and how well they fit the job, not on commission rates.</li>
   <li>We say when something is optional or unnecessary, even if it could earn a commission.</li>
   <li>We don't claim hands-on testing we haven't done, and we don't show retailer prices (they change too often to be accurate).</li>
   <li>We're not sponsored by, or affiliated with, Breville, Sage, Ninja or other manufacturers we write about.</li>

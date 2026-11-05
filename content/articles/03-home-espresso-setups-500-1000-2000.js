@@ -3,12 +3,15 @@ module.exports = {
   slug: "home-espresso-setups-500-1000-2000",
   title: "Complete Home Espresso Setups at $500, $1,000 and $2,000 (Breville 54mm Edition)",
   category: "Buying guide",
-  description: "Three complete, balanced shopping lists built around Breville's 54mm machines — what to buy first, what can wait, and where extra money actually improves your coffee.",
+  hero: "accessories",
+  inline: "scale",
+  picks: ["bambino", "encoreEsp", "espressoScale"],
+  description: "Three complete, balanced shopping lists built around Breville's 54mm machines, what to buy first, what can wait, and where extra money actually improves your coffee.",
   related: ["bambino-vs-bambino-plus-vs-barista-express", "best-grinder-for-breville-bambino", "choosing-an-espresso-scale"],
   sources: [
-    { label: "Breville US — Bambino, Bambino Plus, Barista Express and Barista Pro product pages", url: "https://www.breville.com/en-us/product/bes500" },
-    { label: "CoffeeGeek — Best Budget Coffee Grinders for 2026 (grinder MSRPs)", url: "https://coffeegeek.com/guides/feature-guides/best-budget-coffee-grinders-for-2026/" },
-    { label: "SCA 25 Magazine — Water and coffee acidity", url: "https://sca.coffee/sca-news/25/issue-9/english/water-and-coffee-acidity-how-to-adapt-your-water-for-different-extraction-methods-25-magazine-issue-9-pxjby" },
+    { label: "Breville US: Bambino, Bambino Plus, Barista Express and Barista Pro product pages", url: "https://www.breville.com/en-us/product/bes500" },
+    { label: "CoffeeGeek: Best Budget Coffee Grinders for 2026 (grinder MSRPs)", url: "https://coffeegeek.com/guides/feature-guides/best-budget-coffee-grinders-for-2026/" },
+    { label: "SCA 25 Magazine: Water and coffee acidity", url: "https://sca.coffee/sca-news/25/issue-9/english/water-and-coffee-acidity-how-to-adapt-your-water-for-different-extraction-methods-25-magazine-issue-9-pxjby" },
   ],
   body: `
 <p>Budgets below are <strong>approximate totals for planning</strong>, using Breville's US list prices (checked October 2026) for machines and typical price ranges for everything else. Prices move constantly and sales are common, so treat these as shapes of a setup rather than a receipt.</p>
@@ -18,8 +21,8 @@ module.exports = {
   <li><strong>A grinder that can actually grind for espresso.</strong> Non-negotiable if you want to use the single-wall baskets.</li>
   <li><strong>A scale with a timer.</strong> The cheapest way to make shots repeatable.</li>
   <li><strong>Fresh beans and decent water.</strong> Ongoing, but they change the taste more than most accessories.</li>
-  <li><strong>Workflow tools</strong> (WDT tool, dosing funnel, knock box, mat) — nice, inexpensive, optional.</li>
-  <li><strong>Upgrades</strong> (bottomless portafilter, puck screen, better tamper) — only after the basics.</li>
+  <li><strong>Workflow tools</strong> (WDT tool, dosing funnel, knock box, mat), nice, inexpensive, optional.</li>
+  <li><strong>Upgrades</strong> (bottomless portafilter, puck screen, better tamper), only after the basics.</li>
 </ol>
 
 <h2>The $500 setup: "real espresso on a budget"</h2>
@@ -33,7 +36,7 @@ module.exports = {
 <tr><td colspan="2"><strong>Total</strong></td><td><strong>about $450–$570</strong></td></tr>
 </tbody></table></div>
 <p><strong>Why this works:</strong> the Bambino uses the same 54mm portafilter, pre-infusion and PID control as its pricier siblings. All your savings go into the grinder, which is where a budget setup usually falls down. <strong>What to skip for now:</strong> bottomless portafilter, fancy tamper, puck screen.</p>
-<p><strong>If you mostly drink lattes:</strong> the manual steam wand works well once you learn it — see our <a href="/articles/milk-steaming-tips-bambino-plus/">milk steaming guide</a>.</p>
+<p><strong>If you mostly drink lattes:</strong> the manual steam wand works well once you learn it, see our <a href="/articles/milk-steaming-tips-bambino-plus/">milk steaming guide</a>.</p>
 
 <h2>The $1,000 setup: "the sweet spot"</h2>
 <div class="table-scroll"><table>
@@ -47,7 +50,7 @@ module.exports = {
 <tr><td>Water</td><td>[[p:waterTestStrips]] and a [[p:waterPitcherFilter]] or [[p:mineralPacks]]</td><td>roughly $20–$50</td></tr>
 <tr><td colspan="2"><strong>Total</strong></td><td><strong>about $820–$1,060</strong></td></tr>
 </tbody></table></div>
-<p><strong>Why this works:</strong> a flat-burr single-dose grinder is the largest step up in shot quality for the money, and the small tools make each shot more consistent. <strong>Alternative:</strong> a [[p:baristaPro]] ($849.95 list) gives you a built-in grinder with 30 settings, ThermoJet heat-up and an LCD in one box, plus a scale and a few tools — fewer devices, less upgrade flexibility.</p>
+<p><strong>Why this works:</strong> a flat-burr single-dose grinder is the largest step up in shot quality for the money, and the small tools make each shot more consistent. <strong>Alternative:</strong> a [[p:baristaPro]] ($849.95 list) gives you a built-in grinder with 30 settings, ThermoJet heat-up and an LCD in one box, plus a scale and a few tools, fewer devices, less upgrade flexibility.</p>
 
 <h2>The $2,000 setup: "buy the grinder once"</h2>
 <div class="table-scroll"><table>
@@ -66,9 +69,9 @@ module.exports = {
 
 <h2>Things that are easy to overspend on</h2>
 <ul>
-  <li><strong>Calibrated "force" tampers</strong> — consistency matters more than force; a well-fitting tamper is enough.</li>
-  <li><strong>Lots of baskets</strong> — learn on the stock single-wall double basket first.</li>
-  <li><strong>Accessories labeled "fits Breville" without a size</strong> — check the <a href="/tools/54mm-checker/">fit checker</a> first.</li>
+  <li><strong>Calibrated "force" tampers</strong>, consistency matters more than force; a well-fitting tamper is enough.</li>
+  <li><strong>Lots of baskets</strong>, learn on the stock single-wall double basket first.</li>
+  <li><strong>Accessories labeled "fits Breville" without a size</strong>, check the <a href="/tools/54mm-checker/">fit checker</a> first.</li>
 </ul>
 `,
 };

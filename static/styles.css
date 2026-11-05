@@ -52,3 +52,20 @@ button[disabled]{background:#b9a99b;cursor:not-allowed}
 .result.ok{border-left:6px solid var(--ok)}.result.warn{border-left:6px solid var(--warn)}.result.no{border-left:6px solid var(--no)}
 .result strong.ok{color:var(--ok)}.result strong.warn{color:var(--warn)}.result strong.no{color:var(--no)}
 @media (max-width:600px){body{font-size:16px}h1{font-size:1.6rem}.hero{padding:20px 16px}}
+/* images + product cards */
+img{max-width:100%;height:auto;display:block}
+figure{margin:0}
+.heroimg img,.headimg img{border-radius:14px;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0 0 18px}
+.inimg{margin:24px 0}.inimg img{border-radius:12px;width:100%}.inimg figcaption{font-size:.85rem;color:var(--muted);margin-top:6px}
+.card .cimg{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;margin-bottom:10px}
+.pgrid{list-style:none;padding:0;margin:14px 0 26px;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.pcard{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.pcard .pimg{width:100%;aspect-ratio:16/10;object-fit:cover}
+.pbody{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.pbody h3{font-size:1rem;margin:0;line-height:1.3}.pbody p{margin:0;font-size:.92rem}
+.btn.buy{margin-top:auto;text-align:center;min-height:44px;display:flex;align-items:center;justify-content:center}
+.imgnote{font-size:.75rem!important;color:var(--muted)}
+.toppicks{background:#f6ede2;border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:0 0 22px}
+.toppicks h2{margin-top:0}
+.site-header nav a{display:inline-block;padding:10px 4px}
+body{overflow-x:hidden}table{display:block;overflow-x:auto}

@@ -3,11 +3,14 @@ module.exports = {
   slug: "milk-steaming-tips-bambino-plus",
   title: "Milk Steaming Tips for the Bambino Plus (Auto Mode and Manual Mode)",
   category: "Technique",
+  hero: "latteart",
+  inline: "hero",
+  picks: ["bambinoPlus", "milkPitcher12"],
   description: "How to get the most from the Bambino Plus automatic milk settings, when to switch to manual steaming, and simple fixes for big bubbles, thin foam and milk that's too hot.",
   related: ["bambino-vs-bambino-plus-vs-barista-express", "breville-descaling-and-maintenance-schedule", "home-espresso-setups-500-1000-2000"],
   sources: [
-    { label: "Breville — Bambino Plus (BES500) instruction book: milk texturing (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES500-instruction-manual.pdf" },
-    { label: "Breville US — Bambino Plus product page", url: "https://www.breville.com/en-us/product/bes500" },
+    { label: "Breville: Bambino Plus (BES500) instruction book: milk texturing (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES500-instruction-manual.pdf" },
+    { label: "Breville US: Bambino Plus product page", url: "https://www.breville.com/en-us/product/bes500" },
   ],
   body: `
 <p>The Bambino Plus is the only machine in Breville's compact range that textures milk for you. Breville says the steam is delivered at 266°F (130°C), and the wand can run automatically to a set temperature and foam level, or manually like a traditional wand. Here's how to get consistent milk either way.</p>
@@ -18,7 +21,7 @@ module.exports = {
 <h3>Auto-mode checklist (from Breville's manual)</h3>
 <ol>
   <li>Start with <strong>fresh, cold milk</strong>.</li>
-  <li>Use the <strong>supplied stainless jug</strong>. Breville says to use only this jug for frothing on this machine — the sensor is calibrated to it.</li>
+  <li>Use the <strong>supplied stainless jug</strong>. Breville says to use only this jug for frothing on this machine, the sensor is calibrated to it.</li>
   <li>Fill between the <strong>MIN and MAX</strong> marks, and make sure the milk covers the wand tip.</li>
   <li>Lower the wand <strong>fully</strong> into the jug, and make sure the jug sits <strong>on the sensor</strong>.</li>
   <li>Choose your settings and press STEAM.</li>
@@ -44,7 +47,7 @@ module.exports = {
   <li>Press STEAM. Keep the tip just under the surface until the milk spins in a whirlpool.</li>
   <li>Slowly lower the jug so the tip reaches the surface and starts drawing in air (a gentle "tearing paper" sound). Keep it spinning.</li>
   <li>Once you have enough foam, lift the jug slightly so the tip is submerged and the milk keeps rolling.</li>
-  <li>Stop when the jug is hot to the touch — Breville cites 60–65°C (140–149°F) as the correct temperature.</li>
+  <li>Stop when the jug is hot to the touch, Breville cites 60–65°C (140–149°F) as the correct temperature.</li>
 </ol>
 
 <h2>Troubleshooting</h2>
@@ -63,7 +66,7 @@ module.exports = {
 <p>Plant milks vary a lot by brand. "Barista" editions are formulated to foam and usually behave closer to dairy. Start with Low or Medium foam and Ideal temperature, and expect some trial and error.</p>
 
 <h2>Keep the wand clean</h2>
-<p>Always wipe and purge after every jug — dried milk blocks the tip holes and affects texture. The Bambino Plus ships with a steam wand tip cleaning tool stored under the water tank. See our <a href="/articles/breville-descaling-and-maintenance-schedule/">maintenance schedule</a>.</p>
+<p>Always wipe and purge after every jug, dried milk blocks the tip holes and affects texture. The Bambino Plus ships with a steam wand tip cleaning tool stored under the water tank. See our <a href="/articles/breville-descaling-and-maintenance-schedule/">maintenance schedule</a>.</p>
 <p>Want a separate jug for pouring art? A [[p:milkPitcher12]] works for manual mode, but keep using the supplied jug for auto mode.</p>
 `,
 };

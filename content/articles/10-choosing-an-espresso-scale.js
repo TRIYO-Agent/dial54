@@ -3,15 +3,18 @@ module.exports = {
   slug: "choosing-an-espresso-scale",
   title: "Choosing an Espresso Scale for a Bambino or Barista Express",
   category: "Accessories",
+  hero: "scale",
+  inline: "bottomless",
+  picks: ["espressoScale"],
   description: "Why a scale is the most useful accessory after the grinder, the features that matter (resolution, timer, response, size), and how to make one fit a compact Breville drip tray.",
   related: ["dialing-in-espresso-on-a-bambino", "home-espresso-setups-500-1000-2000", "breville-54mm-accessory-fit-guide"],
   sources: [
-    { label: "Breville US — Bambino product page (dimensions)", url: "https://www.breville.com/en-us/product/bes450" },
-    { label: "Breville — Bambino Plus instruction book: milk jug temperature sensor on drip tray (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES500-instruction-manual.pdf" },
-    { label: "Breville — Bambino instruction book: shot volumes and stopping extraction (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES450-instruction-manual.pdf" },
+    { label: "Breville US: Bambino product page (dimensions)", url: "https://www.breville.com/en-us/product/bes450" },
+    { label: "Breville: Bambino Plus instruction book: milk jug temperature sensor on drip tray (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES500-instruction-manual.pdf" },
+    { label: "Breville: Bambino instruction book: shot volumes and stopping extraction (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES450-instruction-manual.pdf" },
   ],
   body: `
-<p>Breville's volumetric buttons pour by volume (the Bambino's 2-cup preset is about 60 ml), but crema makes volume a poor measure of how much espresso you actually made. Weighing your dose and your shot is the single easiest way to make results repeatable — and to follow the <a href="/articles/dialing-in-espresso-on-a-bambino/">dial-in method</a>.</p>
+<p>Breville's volumetric buttons pour by volume (the Bambino's 2-cup preset is about 60 ml), but crema makes volume a poor measure of how much espresso you actually made. Weighing your dose and your shot is the single easiest way to make results repeatable, and to follow the <a href="/articles/dialing-in-espresso-on-a-bambino/">dial-in method</a>.</p>
 
 <h2>Features that matter</h2>
 <ul>
@@ -27,7 +30,7 @@ module.exports = {
 <p>The Bambino is a compact machine (Breville lists it at 11.9 × 6.1 × 13.5 in), so the drip tray area is small. Before buying:</p>
 <ol>
   <li><strong>Measure</strong> the drip tray's usable width and depth, and the height from tray to portafilter spouts (or basket bottom, with a bottomless portafilter).</li>
-  <li><strong>Subtract your cup height</strong> — the scale plus cup must fit underneath.</li>
+  <li><strong>Subtract your cup height</strong>, the scale plus cup must fit underneath.</li>
   <li><strong>Look for a compact footprint</strong>; many "espresso" scales are designed around exactly this problem.</li>
 </ol>
 <div class="callout"><strong>Bambino Plus note:</strong> the milk jug temperature sensor sits on the drip tray. A scale left there during steaming can block the sensor that auto milk mode relies on, so move the scale away before steaming.</div>

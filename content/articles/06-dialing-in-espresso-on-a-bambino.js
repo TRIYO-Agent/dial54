@@ -3,12 +3,15 @@ module.exports = {
   slug: "dialing-in-espresso-on-a-bambino",
   title: "How to Dial In Espresso on a Breville Bambino (Step by Step)",
   category: "Technique",
+  hero: "scale",
+  inline: "puckprep",
+  picks: ["espressoScale", "wdtTool", "funnel54"],
   description: "A repeatable method for dialing in a Bambino or Bambino Plus with the single-wall basket: a starting recipe, how to read a shot, and which single variable to change next.",
   related: ["best-grinder-for-breville-bambino", "choosing-an-espresso-scale", "wdt-tools-and-puck-screens-explained"],
   sources: [
-    { label: "Breville — Bambino instruction book: dose, tamping, extraction guide (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES450-instruction-manual.pdf" },
-    { label: "Breville — Bambino Plus instruction book: extraction troubleshooting (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES500-instruction-manual.pdf" },
-    { label: "Baratza — Dialing in Espresso", url: "https://www.baratza.com/en-us/blog/product-guides/dialing-in-espresso" },
+    { label: "Breville: Bambino instruction book: dose, tamping, extraction guide (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES450-instruction-manual.pdf" },
+    { label: "Breville: Bambino Plus instruction book: extraction troubleshooting (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES500-instruction-manual.pdf" },
+    { label: "Baratza: Dialing in Espresso", url: "https://www.baratza.com/en-us/blog/product-guides/dialing-in-espresso" },
   ],
   body: `
 <p>"Dialing in" means adjusting your recipe until a coffee tastes balanced on your machine. It sounds fussy, but with a scale and a method it usually takes a handful of shots per new bag. This guide assumes a Bambino or Bambino Plus with the <strong>single-wall</strong> double basket and freshly ground beans. (With pre-ground coffee, use the dual-wall basket; it's designed to compensate and there's much less to dial in.)</p>
@@ -25,7 +28,7 @@ module.exports = {
 <p>Start with three numbers: <strong>dose</strong> (dry coffee in), <strong>yield</strong> (liquid espresso out) and <strong>time</strong>.</p>
 <ul>
   <li><strong>Dose:</strong> 18 g. Breville designs the Bambino around an 18 g dose, and the manual lists the double basket's range as 16–19 g.</li>
-  <li><strong>Yield:</strong> about 36 g — a 1:2 ratio is a widely used starting point in specialty coffee.</li>
+  <li><strong>Yield:</strong> about 36 g, a 1:2 ratio is a widely used starting point in specialty coffee.</li>
   <li><strong>Time:</strong> roughly 25–35 seconds from pressing the button is a common target range. It's a guide, not a rule; taste decides.</li>
 </ul>
 
@@ -40,7 +43,7 @@ module.exports = {
 
 <h2>Step 3: Pull the shot and watch the start</h2>
 <p>The Bambino manual says that, as a guide, espresso should start to flow after about <strong>8–12 seconds</strong> (the pre-infusion/"infusion time") and look like "dripping honey." Flow starting in under about 7 seconds suggests the grind is too coarse or the basket is under-dosed. Drips that never really become a stream after 12 seconds suggest the grind is too fine.</p>
-<p>The preset 2-cup button aims for roughly 60 ml by volume. When dialing in by weight, it's easier to watch the scale and press the button again to stop the shot when you hit your target — Breville notes that pressing the button during extraction stops it immediately.</p>
+<p>The preset 2-cup button aims for roughly 60 ml by volume. When dialing in by weight, it's easier to watch the scale and press the button again to stop the shot when you hit your target, Breville notes that pressing the button during extraction stops it immediately.</p>
 
 <h2>Step 4: Taste, then change one thing</h2>
 <div class="table-scroll"><table>
