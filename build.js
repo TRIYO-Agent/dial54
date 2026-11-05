@@ -68,7 +68,7 @@ function layout({ title, description, urlPath, body, isArticle, article }) {
 <meta property="og:image" content="${cfg.baseUrl}/img/${(article && article.hero) || "hero"}.webp">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/styles.css?v=2">
 ${ld}
 </head>
 <body>
