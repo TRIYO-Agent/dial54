@@ -14,6 +14,6 @@ module.exports = {
 <p class="lede">Everything we mention across our guides, in one place. Each card says why it fits a Breville 54mm setup. Not sure an accessory will fit? Try the <a href="/tools/54mm-checker/">54mm fit checker</a> first.</p>
 <p class="disclosure inline">${esc(cfg.disclosure)}</p>
 ${groups.map(([h, ids]) => `<h2>${h}</h2>${productGrid(ids)}`).join("\n")}
-<p class="note">Card photos are illustrative, generic images and do not show the exact product. Check the listing for current details before you buy.</p>
+<p class="note">Card photos are illustrative AI-generated images matched to each product type. They are not photos of the exact branded model. Check the listing for current details before you buy.</p>
 `,
 };

@@ -27,7 +27,7 @@ function productHtml(id) {
 const imgTag = (key, alt, cls = "", eager = false) => `<img class="${cls}" src="/img/${key}.webp" srcset="/img/${key}-sm.webp 640w, /img/${key}.webp 1200w" sizes="(max-width: 700px) 100vw, 860px" width="1200" height="675" alt="${esc(alt)}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async">`;
 function productCard(id) {
   const p = products[id], x = extras[id], l = productLink(id);
-  return `<li class="pcard">${imgTag(x.img, `Illustrative photo for ${p.name} (generic, not the exact product)`, "pimg")}<div class="pbody"><h3>${esc(p.name)}</h3><p>${esc(x.note)}</p><a class="btn buy" href="${esc(l.href)}" rel="${l.rel}" target="_blank">${esc(l.label)}</a><p class="imgnote">Illustrative image, not the exact model.</p></div></li>`;
+  return `<li class="pcard">${imgTag(x.img, `Illustrative image of ${p.name}`, "pimg")}<div class="pbody"><h3>${esc(p.name)}</h3><p>${esc(x.note)}</p><a class="btn buy" href="${esc(l.href)}" rel="${l.rel}" target="_blank">${esc(l.label)}</a><p class="imgnote">Illustrative image.</p></div></li>`;
 }
 const productGrid = (ids) => `<ul class="pgrid">${ids.map(productCard).join("")}</ul>`;
 const usedIn = {};
@@ -69,7 +69,7 @@ function layout({ title, description, urlPath, body, isArticle, article }) {
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0b1f4a">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/styles.css?v=3">
+<link rel="stylesheet" href="/styles.css?v=4">
 ${ld}
 </head>
 <body>

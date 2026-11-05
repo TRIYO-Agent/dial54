@@ -25,7 +25,7 @@ module.exports = {
 <p>For daily coffee chat, quick tips and shot photos, follow CoffeeTalk on Instagram: <a href="https://www.instagram.com/coffeetalk_daily/" rel="noopener me" target="_blank">@coffeetalk_daily</a>.</p>
 
 <h2>Image credits</h2>
-<p>Photos on Dial54 are AI-generated illustrations of generic, unbranded espresso gear and home coffee scenes, created for this site. Product card images are illustrative only and do not show the exact model or brand named on the card. No images are copied from Amazon or from manufacturers.</p>
+<p>Photos on Dial54 are AI-generated illustrations created for this site. Product card images are AI-generated unbranded illustrations drawn to resemble each item's real form factor, finish and controls, not photos of the branded products. Article and hero photos are AI-generated lifestyle scenes. No images are copied from Amazon or from manufacturers, and product images do not include brand logos or brand names.</p>
 
 <h2>Independence and affiliate links</h2>
 <p>Dial54 is not affiliated with Breville, Sage, Ninja or any manufacturer. As an Amazon Associate I earn from qualifying purchases. Some product mentions may become affiliate links, which means the site may earn a small commission at no extra cost to you. That never decides what we recommend. Details are on the <a href="/affiliate-disclosure/">affiliate disclosure</a> page.</p>
