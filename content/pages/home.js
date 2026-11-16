@@ -24,7 +24,7 @@ ${productGrid(["bambino", "encoreEsp", "espressoScale"])}<p><a class="btn" href=
 <ul class="cards">${pick(["breville-54mm-accessory-fit-guide", "bottomless-portafilter-guide", "wdt-tools-and-puck-screens-explained", "choosing-an-espresso-scale"])}</ul>
 
 <h2>Technique and care</h2>
-<ul class="cards">${pick(["dialing-in-espresso-on-a-bambino", "milk-steaming-tips-bambino-plus", "breville-descaling-and-maintenance-schedule", "water-for-espresso"])}</ul>
+<ul class="cards">${pick(["bambino-shots-running-fast-or-sour", "dialing-in-espresso-on-a-bambino", "milk-steaming-tips-bambino-plus", "breville-descaling-and-maintenance-schedule", "water-for-espresso"])}</ul>
 
 <h2>How we write these guides</h2>
 <p>Every guide is built from manufacturer manuals and product pages plus reputable independent reviews, and each one lists its sources. We don't publish made-up test results or invented specs, and we don't list retailer prices because they change daily, where we mention a price, it's the manufacturer's list price with the date we checked it. <a href="/about/">More about Dial54</a>.</p>

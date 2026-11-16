@@ -7,7 +7,7 @@ module.exports = {
   inline: "tamping",
   picks: ["bottomless54", "shotGlass"],
   description: "What a bottomless (naked) portafilter does, what it doesn't do, how to pick one that fits a Bambino or Barista Express, and how to read the shots it shows you.",
-  related: ["breville-54mm-accessory-fit-guide", "wdt-tools-and-puck-screens-explained", "dialing-in-espresso-on-a-bambino"],
+  related: ["bambino-shots-running-fast-or-sour", "wdt-tools-and-puck-screens-explained", "dialing-in-espresso-on-a-bambino"],
   sources: [
     { label: "Espresso Manual: Breville 54mm vs 58mm model table", url: "https://espressomanual.com/breville/" },
     { label: "Breville: Bambino instruction book: single-wall and dual-wall baskets (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES450-instruction-manual.pdf" },

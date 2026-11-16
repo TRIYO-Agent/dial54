@@ -7,7 +7,7 @@ module.exports = {
   inline: "accessories",
   picks: ["wdtTool", "puckScreen54", "funnel54"],
   description: "What the Weiss Distribution Technique actually fixes, how to use a WDT tool in 15 seconds, what a puck screen does, and how to size both for Breville 54mm baskets.",
-  related: ["bottomless-portafilter-guide", "breville-54mm-accessory-fit-guide", "dialing-in-espresso-on-a-bambino"],
+  related: ["bambino-shots-running-fast-or-sour", "bottomless-portafilter-guide", "dialing-in-espresso-on-a-bambino"],
   sources: [
     { label: "Dialed Espresso Co.: WDT and size-independent accessories", url: "https://dialedespressoco.com/blogs/news/ninja-luxe-cafe-accessories" },
     { label: "Breville: Bambino instruction book: dose and tamping guide (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES450-instruction-manual.pdf" },
