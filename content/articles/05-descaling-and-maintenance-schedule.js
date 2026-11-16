@@ -9,10 +9,10 @@ module.exports = {
   description: "A simple, printable care routine for Breville 54mm machines: what to do after every drink, weekly, and when the machine asks for a cleaning or descale cycle, based on Breville's own manuals.",
   related: ["water-for-espresso", "milk-steaming-tips-bambino-plus", "dialing-in-espresso-on-a-bambino"],
   sources: [
-    { label: "Breville: Bambino (BES450) instruction book: Clean & Descale cycle (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES450-instruction-manual.pdf" },
-    { label: "Breville: Bambino Plus (BES500) instruction book: cleaning cycle and descaling (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES500-instruction-manual.pdf" },
-    { label: "Breville: Barista Express (BES870) instruction book: water filter, cleaning cycle, descaling (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES870-instruction-manual.pdf" },
-    { label: "Breville: Barista Pro (BES878) instruction book (PDF)", url: "https://www.breville.com/content/dam/breville/au/en/assets/miscellaneous/instruction-manual/espresso/BES878-instruction-manual.pdf" },
+    { label: "Breville: Bambino (BES450) instruction book: Clean & Descale cycle (PDF)", url: "https://assets.breville.com/BES450/BES450_USCM_IB_I21_FA_WEB.pdf" },
+    { label: "Breville: Bambino Plus (BES500) instruction book: cleaning cycle and descaling (PDF)", url: "https://assets.breville.com/Instruction-Booklets/USCM/BES500_USCM_IB_Q21_FA_WEB.pdf" },
+    { label: "Breville: Barista Express (BES870) instruction book: water filter, cleaning cycle, descaling (PDF)", url: "https://assets.breville.com/BES870/BES870_USCM_IB_X26_LR.pdf" },
+    { label: "Breville: Barista Pro (BES878) instruction book (PDF)", url: "https://assets.breville.com/BES878/BES878_USCM_IB_Q26_LR.pdf" },
   ],
   body: `
 <p>Breville machines tell you when they need a cleaning or descaling cycle, but a few small habits between those alerts keep shots tasting right and the machine working longer. Below is a schedule you can follow, with the machine-specific details pulled from Breville's instruction books. <strong>Your manual always wins</strong>, button combinations differ between models and revisions.</p>

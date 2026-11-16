@@ -12,7 +12,7 @@ module.exports = {
     { label: "SCA 25 Magazine: Water and Coffee Acidity: How to Adapt Your Water", url: "https://sca.coffee/sca-news/25/issue-9/english/water-and-coffee-acidity-how-to-adapt-your-water-for-different-extraction-methods-25-magazine-issue-9-pxjby" },
     { label: "Coffearium: Water for coffee (summary of SCAA 2009 standard and SCA 2018 handbook)", url: "https://coffearium.org/entries/water-for-coffee/" },
     { label: "Clive Coffee: Water composition and espresso flavor", url: "https://clivecoffee.com/blogs/learn/the-science-of-water-composition-in-espresso" },
-    { label: "Breville: Barista Express instruction book: water filter guidance (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES870-instruction-manual.pdf" },
+    { label: "Breville: Barista Express instruction book: water filter guidance (PDF)", url: "https://assets.breville.com/BES870/BES870_USCM_IB_X26_LR.pdf" },
   ],
   body: `
 <p>Espresso is mostly water, and the minerals in that water affect two things: <strong>how your coffee tastes</strong> and <strong>how fast scale builds up</strong> inside the machine. You don't need a chemistry lab, just a basic idea of where your water stands and a simple fix if it's far off.</p>

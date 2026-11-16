@@ -9,8 +9,8 @@ module.exports = {
   description: "A repeatable method for dialing in a Bambino or Bambino Plus with the single-wall basket: a starting recipe, how to read a shot, and which single variable to change next.",
   related: ["bambino-shots-running-fast-or-sour", "best-grinder-for-breville-bambino", "choosing-an-espresso-scale", "wdt-tools-and-puck-screens-explained"],
   sources: [
-    { label: "Breville: Bambino instruction book: dose, tamping, extraction guide (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES450-instruction-manual.pdf" },
-    { label: "Breville: Bambino Plus instruction book: extraction troubleshooting (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES500-instruction-manual.pdf" },
+    { label: "Breville: Bambino instruction book: dose, tamping, extraction guide (PDF)", url: "https://assets.breville.com/BES450/BES450_USCM_IB_I21_FA_WEB.pdf" },
+    { label: "Breville: Bambino Plus instruction book: extraction troubleshooting (PDF)", url: "https://assets.breville.com/Instruction-Booklets/USCM/BES500_USCM_IB_Q21_FA_WEB.pdf" },
     { label: "Baratza: Dialing in Espresso", url: "https://www.baratza.com/en-us/blog/product-guides/dialing-in-espresso" },
   ],
   body: `

@@ -9,7 +9,7 @@ module.exports = {
   description: "Why the grinder matters more than the machine on a Bambino or Bambino Plus, what 'espresso-capable' really means, and sensible grinder options at three budget levels.",
   related: ["bambino-vs-bambino-plus-vs-barista-express", "dialing-in-espresso-on-a-bambino", "home-espresso-setups-500-1000-2000"],
   sources: [
-    { label: "Breville: Bambino instruction book: single-wall vs dual-wall baskets (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES450-instruction-manual.pdf" },
+    { label: "Breville: Bambino instruction book: single-wall vs dual-wall baskets (PDF)", url: "https://assets.breville.com/BES450/BES450_USCM_IB_I21_FA_WEB.pdf" },
     { label: "Baratza: Dialing in Espresso (Encore ESP and ESP Pro ranges)", url: "https://www.baratza.com/en-us/blog/product-guides/dialing-in-espresso" },
     { label: "CoffeeGeek: Baratza Encore ESP full review", url: "https://coffeegeek.com/reviews/fullreview/baratza-encore-esp-grinder/" },
     { label: "CoffeeGeek: Best Budget Coffee Grinders for 2026", url: "https://coffeegeek.com/guides/feature-guides/best-budget-coffee-grinders-for-2026/" },

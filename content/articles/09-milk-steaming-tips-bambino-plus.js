@@ -9,7 +9,7 @@ module.exports = {
   description: "How to get the most from the Bambino Plus automatic milk settings, when to switch to manual steaming, and simple fixes for big bubbles, thin foam and milk that's too hot.",
   related: ["bambino-vs-bambino-plus-vs-barista-express", "breville-descaling-and-maintenance-schedule", "home-espresso-setups-500-1000-2000"],
   sources: [
-    { label: "Breville: Bambino Plus (BES500) instruction book: milk texturing (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES500-instruction-manual.pdf" },
+    { label: "Breville: Bambino Plus (BES500) instruction book: milk texturing (PDF)", url: "https://assets.breville.com/Instruction-Booklets/USCM/BES500_USCM_IB_Q21_FA_WEB.pdf" },
     { label: "Breville US: Bambino Plus product page", url: "https://www.breville.com/en-us/product/bes500" },
   ],
   body: `

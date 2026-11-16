@@ -12,8 +12,8 @@ module.exports = {
     { label: "Breville US: the Bambino (BES450) product page", url: "https://www.breville.com/en-us/product/bes450" },
     { label: "Breville US: the Bambino Plus (BES500) product page", url: "https://www.breville.com/en-us/product/bes500" },
     { label: "Breville US: the Barista Express (BES870) product page", url: "https://www.breville.com/en-us/product/bes870" },
-    { label: "Breville: Bambino Plus instruction book (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES500-instruction-manual.pdf" },
-    { label: "Breville: Barista Express instruction book (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES870-instruction-manual.pdf" },
+    { label: "Breville: Bambino Plus instruction book (PDF)", url: "https://assets.breville.com/Instruction-Booklets/USCM/BES500_USCM_IB_Q21_FA_WEB.pdf" },
+    { label: "Breville: Barista Express instruction book (PDF)", url: "https://assets.breville.com/BES870/BES870_USCM_IB_X26_LR.pdf" },
     { label: "Espresso Manual: Breville/Sage model history and specs table", url: "https://espressomanual.com/breville/" },
   ],
   body: `

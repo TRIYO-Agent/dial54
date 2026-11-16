@@ -10,7 +10,7 @@ module.exports = {
   related: ["bambino-shots-running-fast-or-sour", "bottomless-portafilter-guide", "dialing-in-espresso-on-a-bambino"],
   sources: [
     { label: "Dialed Espresso Co.: WDT and size-independent accessories", url: "https://dialedespressoco.com/blogs/news/ninja-luxe-cafe-accessories" },
-    { label: "Breville: Bambino instruction book: dose and tamping guide (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES450-instruction-manual.pdf" },
+    { label: "Breville: Bambino instruction book: dose and tamping guide (PDF)", url: "https://assets.breville.com/BES450/BES450_USCM_IB_I21_FA_WEB.pdf" },
   ],
   body: `
 <p>These two small tools come up in nearly every "upgrade your Bambino" thread. One is cheap and almost always worth it; the other is optional and depends on your workflow.</p>

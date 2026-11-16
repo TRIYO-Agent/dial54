@@ -10,8 +10,8 @@ module.exports = {
   related: ["bottomless-portafilter-guide", "wdt-tools-and-puck-screens-explained", "home-espresso-setups-500-1000-2000"],
   sources: [
     { label: "Espresso Manual: Breville/Sage models, heating systems and portafilter sizes", url: "https://espressomanual.com/breville/" },
-    { label: "Breville: Barista Pro instruction book: 54mm portafilter, tamper and Dosing Funnel 54 (PDF)", url: "https://www.breville.com/content/dam/breville/au/en/assets/miscellaneous/instruction-manual/espresso/BES878-instruction-manual.pdf" },
-    { label: "Breville: Bambino Plus instruction book: 54mm portafilter and accessories (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES500-instruction-manual.pdf" },
+    { label: "Breville: Barista Pro instruction book: 54mm portafilter, tamper and Dosing Funnel 54 (PDF)", url: "https://assets.breville.com/BES878/BES878_USCM_IB_Q26_LR.pdf" },
+    { label: "Breville: Bambino Plus instruction book: 54mm portafilter and accessories (PDF)", url: "https://assets.breville.com/Instruction-Booklets/USCM/BES500_USCM_IB_Q21_FA_WEB.pdf" },
     { label: "SharkNinja: Ninja Luxe Café portafilter part 562UO600 and compatible models", url: "https://www.sharkninja.com/portafilter/562UO600.html" },
     { label: "Dialed Espresso Co.: Ninja Luxe Café is 53mm, not 54mm", url: "https://dialedespressoco.com/pages/ninja-luxe-cafe" },
   ],

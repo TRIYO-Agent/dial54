@@ -10,8 +10,8 @@ module.exports = {
   related: ["dialing-in-espresso-on-a-bambino", "home-espresso-setups-500-1000-2000", "breville-54mm-accessory-fit-guide"],
   sources: [
     { label: "Breville US: Bambino product page (dimensions)", url: "https://www.breville.com/en-us/product/bes450" },
-    { label: "Breville: Bambino Plus instruction book: milk jug temperature sensor on drip tray (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES500-instruction-manual.pdf" },
-    { label: "Breville: Bambino instruction book: shot volumes and stopping extraction (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES450-instruction-manual.pdf" },
+    { label: "Breville: Bambino Plus instruction book: milk jug temperature sensor on drip tray (PDF)", url: "https://assets.breville.com/Instruction-Booklets/USCM/BES500_USCM_IB_Q21_FA_WEB.pdf" },
+    { label: "Breville: Bambino instruction book: shot volumes and stopping extraction (PDF)", url: "https://assets.breville.com/BES450/BES450_USCM_IB_I21_FA_WEB.pdf" },
   ],
   body: `
 <p>Breville's volumetric buttons pour by volume (the Bambino's 2-cup preset is about 60 ml), but crema makes volume a poor measure of how much espresso you actually made. Weighing your dose and your shot is the single easiest way to make results repeatable, and to follow the <a href="/articles/dialing-in-espresso-on-a-bambino/">dial-in method</a>.</p>

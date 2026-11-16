@@ -10,7 +10,7 @@ module.exports = {
   related: ["bambino-shots-running-fast-or-sour", "wdt-tools-and-puck-screens-explained", "dialing-in-espresso-on-a-bambino"],
   sources: [
     { label: "Espresso Manual: Breville 54mm vs 58mm model table", url: "https://espressomanual.com/breville/" },
-    { label: "Breville: Bambino instruction book: single-wall and dual-wall baskets (PDF)", url: "https://www.breville.com/content/dam/breville/us/en/assets/miscellaneous/instruction-manual/espresso/BES450-instruction-manual.pdf" },
+    { label: "Breville: Bambino instruction book: single-wall and dual-wall baskets (PDF)", url: "https://assets.breville.com/BES450/BES450_USCM_IB_I21_FA_WEB.pdf" },
     { label: "Dialed Espresso Co.: Ninja Luxe Café 53mm sizing note", url: "https://dialedespressoco.com/blogs/news/ninja-luxe-cafe-accessories" },
   ],
   body: `
