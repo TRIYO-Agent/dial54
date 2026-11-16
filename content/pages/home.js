@@ -15,6 +15,9 @@ module.exports = {
 </section>
 <p class="disclosure inline">${esc(cfg.disclosure)}</p>
 
+<h2>Holiday gift guides</h2>
+<ul class="cards">${pick(["best-gifts-for-breville-bambino-owners", "espresso-gifts-under-50"])}</ul>
+
 <h2>Start here</h2>
 <ul class="cards">${pick(["bambino-vs-bambino-plus-vs-barista-express", "best-grinder-for-breville-bambino", "home-espresso-setups-500-1000-2000"])}</ul>
 

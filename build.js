@@ -47,12 +47,22 @@ const nav = [
 function layout({ title, description, urlPath, body, isArticle, article }) {
   const fullTitle = urlPath === "/" ? `${cfg.siteName}: ${cfg.tagline}` : `${title} | ${cfg.siteName}`;
   const canonical = cfg.baseUrl + urlPath;
-  const ld = isArticle ? `<script type="application/ld+json">${JSON.stringify({
+  const ldParts = [];
+  if (isArticle) ldParts.push(`<script type="application/ld+json">${JSON.stringify({
     "@context": "https://schema.org", "@type": "Article", headline: title, description,
     datePublished: article.date || cfg.published, dateModified: article.updated || article.date || cfg.published,
     author: { "@type": "Person", name: "Brett" }, publisher: { "@type": "Organization", name: cfg.siteName },
     mainEntityOfPage: canonical,
-  })}</script>` : "";
+  })}</script>`);
+  if (isArticle && article && article.itemList) {
+    const ids = [...new Set([...(article.picks || []), ...[...String(article.body || "").matchAll(/\[\[p:([A-Za-z0-9_]+)\]\]/g)].map((m) => m[1])])].filter((id) => products[id]);
+    if (ids.length) ldParts.push(`<script type="application/ld+json">${JSON.stringify({
+      "@context": "https://schema.org", "@type": "ItemList", name: title, description,
+      url: canonical, numberOfItems: ids.length,
+      itemListElement: ids.map((id, i) => ({ "@type": "ListItem", position: i + 1, name: products[id].name, url: productLink(id).href })),
+    })}</script>`);
+  }
+  const ld = ldParts.join("\n");
   return `<!doctype html>
 <html lang="en">
 <head>
